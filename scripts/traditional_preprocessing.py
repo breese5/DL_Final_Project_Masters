@@ -66,7 +66,7 @@ def build_features():
     player_metric_data = []
 
     for file in tournament_files:
-        df = pd.read_csv(file)
+        df = pd.read_csv(file, encoding="ISO-8859-1")
         filename = os.path.basename(file).replace("_results.csv", "")
         
         # Detect player name column
