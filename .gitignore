@@ -8,7 +8,8 @@ models/
 
 # Auto-generated data
 data/processed/*
-!data/processed/.gitkeep  # keep folder structure
+!data/processed/.keep
+
 data/eval/evaluation_summary.csv
 data/processed/*.npy
 

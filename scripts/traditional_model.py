@@ -57,7 +57,7 @@ def extract_labels_from_results(raw_path):
         if "2025_masters_tournament_results.csv" in fname:
             continue  # skip the future tournament
 
-        df = pd.read_csv(os.path.join(raw_path, fname))
+        df = pd.read_csv(os.path.join(raw_path, fname), encoding="ISO-8859-1")
         if "player_name" not in df.columns or "position" not in df.columns:
             continue
 
