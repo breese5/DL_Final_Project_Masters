@@ -1,0 +1,16 @@
+# venv and Python cache
+venv/
+__pycache__/
+
+# Model outputs
+models/
+*.pkl
+
+# Auto-generated data
+data/processed/*
+!data/processed/.gitkeep  # keep folder structure
+data/eval/evaluation_summary.csv
+data/processed/*.npy
+
+# Optional logs
+*.log
