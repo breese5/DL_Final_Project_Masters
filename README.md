@@ -12,7 +12,7 @@ This project tackles the challenge of predicting golf tournament outcomes using 
 - Official player statistics (OWGR and strokes gained)
 - Tournament metadata (course, weather, and preview articles)
 
-We predict:
+I predict:
 - 🏆 Probability of winning (Victory)
 - 🖐️ Probability of Top 5 finish
 - 🔟 Probability of Top 10 finish
